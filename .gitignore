@@ -1,0 +1,12 @@
+# generic
+
+.env
+
+# python
+
+.venv
+__pycache__
+
+# javascript
+
+node_modules

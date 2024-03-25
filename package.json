@@ -1,0 +1,23 @@
+{
+  "name": "ai-kickstart",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "completion": "node --env-file .env 1-completion/javascript/completion.js",
+    "functions": "node --env-file .env 2-function-calling/javascript/functions.js",
+    "embeddings-ingest-text": "node --env-file .env 3-embeddings/javascript/ingest-text.js",
+    "embeddings-conversation": "node --env-file .env 3-embeddings/javascript/conversation.js",
+    "embeddings-conversation2": "node --env-file .env 3-embeddings/javascript/conversation2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.184",
+    "openai": "^4.16.1"
+  }
+}
